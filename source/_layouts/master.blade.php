@@ -10,6 +10,7 @@
         <link rel="icon" href="//www.csun.edu/sites/default/themes/csun/favicon.ico" type="image/x-icon">
 
         <!-- FONT LIBS -->
+        <script src="//use.typekit.net/gfb2mjm.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
         <link rel="stylesheet" href="//cdn.metalab.csun.edu/metaphor/css/metaphor.css">
@@ -28,19 +29,8 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-          ga('create', '{{ $google_analytics }}', 'auto');
+          ga('create', '{{ $page->google_analytics }}', 'auto');
           ga('send', 'pageview');
-
-          // $(function() {
-          //   var title = $('title').text();
-          //   var pagePathName=window.location.pathname;
-          //   pagePathName=pagePathName.substring(pagePathName.lastIndexOf("/") + 1);
-          //   if (title.indexOf(pagePathName >= 0)){
-          //     console.log('true');
-          //   } else {
-          //     console.log('false');
-          //   }
-          // });
         </script>
     </body>
 </html>

@@ -1,21 +1,19 @@
 @extends('_layouts.master')
-
 @section('title')
-Metaphor by META+LAB
+  Metaphor by META+LAB
 @endsection
-
 @section('body')
 
     <div class="section section--md section--bottomless">
       <div class="container type--center">
-        <img src="imgs/icon.png" style="width:80px; margin-bottom: 25px;" alt="Metaphor Logo">
+        <img src="docs/imgs/icon.png" style="width:80px; margin-bottom: 25px;" alt="Metaphor Logo">
         <h1 class="giga type--thin">The New Metaphor UI Kit.</h1>
         <h2 class="h1 type--thin type--dark-gray">Rapid App Development Is Finally Here.</h2>
         <br>
         <p><a href="https://github.com/csun-metalab/metaphor.git" target="_blank" class="btn btn-primary-outline btn-lg">Download</a></p>
         <p class="milli type--uppercase type--dark-gray type--marginless">Santana, v0.12.1-Alpha</p>
         <br><br>
-        <img class="img--fluid" src="imgs/editor.png" alt="Metaphor Text Editor">
+        <img class="img--fluid" src="docs/imgs/editor.png" alt="Metaphor Text Editor">
       </div>
     </div>
 
