@@ -12,9 +12,9 @@
         <a class="sr-only" href="#main">Skip to main content</a>
       </div>
       <ul class="primary-nav__links">
-        <li><a href="index.html" class="{{ $page->navSelected('index') }}">Home</a></li>
-        <li><a href="docs/vision.html" class="{{ $page->navSelected('docs') }}">Documentation</a></li>
-        <li><a href="docs/powered-by-metaphor.html" class="{{ $page->navSelected('powered-by-metaphor') }}">Powered-by Metaphor</a></li>
+        <li><a href="index.html" class="primary-nav__link {{ $page->setActiveClass('home', 'active') }}">Home</a></li>
+        <li><a href="docs/vision.html" class="primary-nav__link {{ $page->setActiveClass('vision', 'active') }}">Documentation</a></li>
+        <li><a href="docs/powered-by-metaphor.html" class="primary-nav__link {{ $page->setActiveClass('powered-by-metaphor', 'active') }}">Powered-by Metaphor</a></li>
         <li><a href="//github.com/csun-metalab/metaphor.git" target="_blank" class="primary-nav__link"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
       </ul>
     </div>
