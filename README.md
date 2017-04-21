@@ -8,13 +8,13 @@ Metaphor Documentation
 - [composer](https://www.getcomposer.org)
 - [node](https://nodejs.org/en/) / [npm](https://www.npmjs.com/)
 
-## Installation
+## Optional Installation
 
 ```$ npm install```
 
 ## Serving the Site
 
-Once you have the dependencies installed, simply issue one of the following commands in your terminal:
+Once you have the dependencies installed, simply issue one of the following commands in your terminal, note that in both cases the ```--pretty=false``` flag is given to avoid Jigsaw's default behavior:
 
 ...to serve the application with the built-in PHP server:
 
@@ -30,4 +30,6 @@ $ jigsaw build --pretty=false
 $ gulp watch
 ```
 
-**Note:** If the config file is updated and you're not seeing your changes, killing gulp and re-running ```$ jigsaw build --pretty=false``` and ```$ gulp watch``` fixes this issue.
+The added benefit of this method is that your changes are re-compiled on save.
+
+**Note:** If the config file is updated or you're not seeing your changes, killing gulp and re-running ```$ jigsaw build --pretty=false``` and ```$ gulp watch``` fixes this issue.
