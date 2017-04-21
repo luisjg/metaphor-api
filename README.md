@@ -1,16 +1,33 @@
-# m4-website
+# Metaphor Website
+
 Metaphor Documentation
 
 ## Development Dependencies
 
-- [npm](https://www.npmjs.com/)
-- [gulp-cli](http://gulpjs.com/)
+- [php](https://secure.php.net)
+- [composer](https://www.getcomposer.org)
+- [node](https://nodejs.org/en/) / [npm](https://www.npmjs.com/)
 
-## Getting Started
+## Installation
 
-Make a copy of `example.config.php` and rename it to `config.php`. Add any site specific variables that you'd want to keep private. To access these variables simply use the Blade syntax `{{ $variable_name }}`. More information can be found on the [Jigsaw docs](http://jigsaw.tighten.co/docs/environments/). Once that is done simply issue the following commands:
+```$ npm install```
+
+## Serving the Site
+
+Once you have the dependencies installed, simply issue one of the following commands in your terminal:
+
+...to serve the application with the built-in PHP server:
 
 ```
-$ npm install
+$ jigsaw build --pretty=false
+$ jigsaw serve
+```
+
+...to avoid typing the commands above over and over, simply type the following commands:
+
+```
+$ jigsaw build --pretty=false
 $ gulp watch
 ```
+
+**Note:** If the config file is updated and you're not seeing your changes, killing gulp and re-running ```$ jigsaw build --pretty=false``` and ```$ gulp watch``` fixes this issue.
