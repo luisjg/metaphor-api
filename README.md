@@ -6,6 +6,7 @@ Metaphor Documentation
 
 - [php](https://secure.php.net)
 - [composer](https://www.getcomposer.org)
+- [jigsaw](https://jigsaw.tighten.co/)
 - [node](https://nodejs.org/en/) / [npm](https://www.npmjs.com/)
 
 ## Optional Installation
