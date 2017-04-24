@@ -4,9 +4,11 @@ Metaphor Documentation
 
 ## Development Dependencies
 
+Make sure you meet the following dependencies and install them in the following order. 
+
 - [php](https://secure.php.net)
 - [composer](https://www.getcomposer.org)
-- [jigsaw](https://jigsaw.tighten.co/)
+- [jigsaw](http://jigsaw.tighten.co/)
 - [node](https://nodejs.org/en/) / [npm](https://www.npmjs.com/)
 
 ## Optional Installation
