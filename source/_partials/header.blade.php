@@ -13,8 +13,8 @@
       </div>
       <ul class="primary-nav__links">
         <li><a href="index.html" class="primary-nav__link {{ $page->setActiveClass('home', 'active') }}">Home</a></li>
-        <li><a href="docs/vision.html" class="primary-nav__link {{ $page->setActiveClass('vision', 'active') }}">Documentation</a></li>
-        <li><a href="docs/powered-by-metaphor.html" class="primary-nav__link {{ $page->setActiveClass('powered-by-metaphor', 'active') }}">Powered-by Metaphor</a></li>
+        <li><a href="docs/overview.html" class="primary-nav__link {{ $page->setActiveClass('overview', 'active') }}">Documentation</a></li>
+        <li><a href="docs/powered-by-metaphor.html" class="primary-nav__link {{ $page->setActiveClass('powered-by-metaphor', 'active') }}">Products</a></li>
         <li><a href="//github.com/csun-metalab/metaphor.git" target="_blank" class="primary-nav__link"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
       </ul>
     </div>
