@@ -1,6 +1,6 @@
 # Metaphor Website
 
-Metaphor Documentation
+> Metaphor Documentation
 
 ## Development Dependencies
 
@@ -11,7 +11,7 @@ Make sure you meet the following dependencies and install them in the following 
 - [jigsaw](http://jigsaw.tighten.co/)
 - [node](https://nodejs.org/en/) / [npm](https://www.npmjs.com/)
 
-## Optional Installation
+### Optional Installation
 
 ```$ npm install```
 
@@ -26,7 +26,7 @@ $ jigsaw build --pretty=false
 $ jigsaw serve
 ```
 
-...to avoid typing the commands above over and over, simply type the following commands:
+**_Optional :_** ...to avoid typing the commands above over and over, simply type the following commands:
 
 ```
 $ jigsaw build --pretty=false
