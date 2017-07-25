@@ -6,6 +6,6 @@
     "yargs": "^4.6.0"
   },
   "scripts": {
-   "deploy": "gulp && jigsaw build --pretty=false --env=production && git add build_production && git commit -m 'Build for production' && git subtree push --prefix build_production deploy gh-pages"
- }
+    "deploy": "gulp --production && jigsaw build production --pretty=false && git add build_production && git commit -m 'Build for production' && git subtree push --prefix build_production origin gh-pages"
+  }
 }
